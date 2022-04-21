@@ -18,9 +18,6 @@ import com.mdoldur.employee.repository.EmployeeRepository;
 import com.mdoldur.employee.request.EmployeeRequest;
 import com.mdoldur.employee.response.EmployeeDTO;
 import com.mdoldur.employee.service.interfaces.EmployeeService;
-import com.migros.ordermanagement.converter.CustomerEntityConverter;
-import com.migros.ordermanagement.model.dto.CustomerDto;
-import com.migros.ordermanagement.persistence.entity.CustomerEntity;
 
 @Service
 public class EmployeeServiceImpl implements EmployeeService {
